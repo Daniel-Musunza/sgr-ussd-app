@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/displayTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="SGR USSD APP"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayTextView"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:hint="*639#"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayTextView"
+        android:layout_marginTop="16dp">
+
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:layout_marginTop="100dp"
+            android:layout_centerInParent="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:id="@+id/star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_margin="8dp" />
+
+
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:text="Send"
+            tools:ignore="NotSibling" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
